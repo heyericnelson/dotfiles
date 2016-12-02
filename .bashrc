@@ -140,3 +140,8 @@ export PATH="/opt/anaconda/anaconda2/bin:$PATH"
 
 # use the keychain to automatically add SSH keys
 eval `keychain --eval id_rsa`
+
+# rbenv setup
+export PATH="$HOME/.rbenv/bin:$PATH"
+eval "$(rbenv init -)"
+export PATH="$HOME/.rbenv/plugins/ruby-build/bin:$PATH"
